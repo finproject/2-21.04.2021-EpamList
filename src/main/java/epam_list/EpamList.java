@@ -76,9 +76,9 @@ public class EpamList implements EList {
         if (countIndex > 0) {
             for (int i = 0; i < countIndex; i++) {
                 if (i == countIndex - 1) {
-                    msg = msg + i + "]";
+                    msg = msg + listEpam[i] + "]";
                 } else {
-                    msg = msg + i + ",";
+                    msg = msg + listEpam[i] + ",";
                 }
             }
             System.out.println(msg);
